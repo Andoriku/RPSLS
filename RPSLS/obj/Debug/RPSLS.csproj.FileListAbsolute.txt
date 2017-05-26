@@ -1,2 +1,7 @@
 c:\users\andrew jordan\documents\visual studio 2015\Projects\RPSLS\RPSLS\bin\Debug\RPSLS.exe.config
 C:\Users\Andrew Jordan\RPSLS\RPSLS\bin\Debug\RPSLS.exe.config
+C:\Users\Andrew Jordan\RPSLS\RPSLS\obj\Debug\RPSLS.csprojResolveAssemblyReference.cache
+C:\Users\Andrew Jordan\RPSLS\RPSLS\bin\Debug\RPSLS.exe
+C:\Users\Andrew Jordan\RPSLS\RPSLS\bin\Debug\RPSLS.pdb
+C:\Users\Andrew Jordan\RPSLS\RPSLS\obj\Debug\RPSLS.exe
+C:\Users\Andrew Jordan\RPSLS\RPSLS\obj\Debug\RPSLS.pdb

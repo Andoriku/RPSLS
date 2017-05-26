@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace RPSLS
 {
-    public class Player2 : Users
+    public class User : Player
     {
-
+        public User()
+        {
+            playerName = MakePlayerName();
+        }
     }
 }
