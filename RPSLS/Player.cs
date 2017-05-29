@@ -26,18 +26,23 @@ namespace RPSLS
             {
                 case "rock":
                     moveChoice = 1;
+                    Console.SetCursorPosition(0, Console.CursorTop - 1);
                     break;
                 case "paper":
                     moveChoice = 2;
+                    Console.SetCursorPosition(0, Console.CursorTop - 1);
                     break;  
                 case "scissor":
                     moveChoice = 3;
+                    Console.SetCursorPosition(0, Console.CursorTop - 1);
                     break;
                 case "lizard":
                     moveChoice = 5;
+                    Console.SetCursorPosition(0, Console.CursorTop - 1);
                     break;
                 case "spock":
                     moveChoice = 4;
+                    Console.SetCursorPosition(0, Console.CursorTop - 1);
                     break;
                 default:
                     Console.WriteLine("You have to pick one of these: 'rock','paper','scissor','lizard', or 'spock'");

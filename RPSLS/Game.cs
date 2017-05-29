@@ -46,8 +46,11 @@ namespace RPSLS
             {
                 player1.MakeChoice();
                 player2.MakeChoice();
+                displayPlayer1Choice();
+                displayPlayer2Choice();
+
                 whoWonRound();
-                if (player1Point == 2)
+                 if (player1Point == 2)
                 {
                     Console.WriteLine(player1.playerName + " won!!!");
                     Console.Read();
@@ -59,6 +62,56 @@ namespace RPSLS
                 }
             }
             Console.Read();
+        }
+        public void displayPlayer1Choice()
+        {
+            int moveChoice = player1.moveChoice;
+            switch(moveChoice)
+            {
+                case 1:
+                    Console.WriteLine(player1.playerName + " chose rock!");
+                    break;
+                case 2:
+                    Console.WriteLine(player1.playerName + " chose paper!");
+                    break;
+                case 3:
+                    Console.WriteLine(player1.playerName + " chose scissors!");
+                    break;
+                case 4:
+                    Console.WriteLine(player1.playerName + " chose spock!");
+                    break;
+                case 5:
+                    Console.WriteLine(player1.playerName + " chose lizzard");
+                    break;
+                default:
+                    Console.WriteLine("Something went wrong!");
+                    break;
+            }
+        }
+        public void displayPlayer2Choice()
+        {
+            int moveChoice = player2.moveChoice;
+            switch (moveChoice)
+            {
+                case 1:
+                    Console.WriteLine(player2.playerName + " chose rock!");
+                    break;
+                case 2:
+                    Console.WriteLine(player2.playerName + " chose paper!");
+                    break;
+                case 3:
+                    Console.WriteLine(player2.playerName + " chose scissors!");
+                    break;
+                case 4:
+                    Console.WriteLine(player2.playerName + " chose spock!");
+                    break;
+                case 5:
+                    Console.WriteLine(player2.playerName + " chose lizzard");
+                    break;
+                default:
+                    Console.WriteLine("Something went wrong!");
+                    break;
+            }
         }
         public int whoWonRound()
         {
