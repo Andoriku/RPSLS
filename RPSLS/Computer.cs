@@ -16,6 +16,8 @@ namespace RPSLS
         {
             Random random = new Random();
             moveChoice = random.Next(1, 5);
+
+
         }
     }
 }

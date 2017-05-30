@@ -46,7 +46,7 @@ namespace RPSLS
                     break;
                 default:
                     Console.WriteLine("You have to pick one of these: 'rock','paper','scissor','lizard', or 'spock'");
-                    Console.Read();
+                    MakeChoice();
                     break;
 
             }

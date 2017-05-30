@@ -118,7 +118,7 @@ namespace RPSLS
 
             int result;
             result = (5 + player1.moveChoice - player2.moveChoice) % 5;
-            switch (result)
+             switch (result)
             {
                 case 1:
                     Console.WriteLine(player1.playerName + " beats " + player2.playerName + " this round!");
